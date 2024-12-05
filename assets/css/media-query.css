@@ -8,6 +8,14 @@
   .content .pokemons {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .pagination button:hover {
+    background-color: #4f59a3;
+  }
+
+  .pokemons .pokemon:hover {
+    filter: contrast(1.5);
+  }
 }
 
 @media screen and (min-width: 992px) {

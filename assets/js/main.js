@@ -4,8 +4,6 @@ const maxRecords = 151
 const limit = 8
 let offset = 0
 
-
-
 function toUpperCase(string) {
   return string.charAt(0).toUpperCase() + string.slice(1)
 }
